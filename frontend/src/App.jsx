@@ -46,7 +46,7 @@ const App = () => {
 const analyzeSentiment = () => {
   setLoading(true)
 
-  axios.post("http://127.0.0.1:5000/sentiment", {
+  axios.post("https://pulsetrack-backend-q23e.onrender.com/sentiment", {
     text: searchText
   })
 
